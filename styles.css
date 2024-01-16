@@ -1,0 +1,144 @@
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    font-weight: 700;
+    letter-spacing: 1.5;
+    position: relative;
+    text-align: center;
+    background-image: url("https://www.visittheusa.mx/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-04/7010d1e88b80578f3d4e6fc09c2a2379.jpeg?h=84c61102&itok=7s_epXAP");
+    width: 100%;
+    padding:100px 0px;
+    color: #35443a66;
+  }
+
+  nav {
+    width:100%; /* six main menu buttons at 150px per */
+    margin: px;; /* Based on a suggestion from stackoverflow */ 
+    list-style-type:none;
+    text-align:center;
+    position: -webkit-sticky; /* used to render menu bar on top */
+    top: 0; /* used to render menu bar on top */
+    z-index: 10; /* use z-index to render menu bar on top of everything, even the slideshow */
+    display:inline-block;
+    padding: auto, 0;
+    background-color: #1a1a00;
+    color: rgb(243, 236, 236)
+
+  }
+
+    ul{
+      width: 70%;
+      display: inline-block;
+      text-align: center;
+      word-spacing: 5;
+   }
+   ul li{
+    display: inline-block;
+    float: none;
+}
+    nav li {
+      display:inline-block; /* used to wrap text */
+      position:relative;
+      font-size:14px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;      
+      }
+  
+      .btn-main{
+    color: #f3f0f0;
+    display: inline-block;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1a1a00a9;
+    padding:10px;
+    text-decoration: none;
+  }
+
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #c8c0b5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+
+  .subtext1{
+
+    width: 100%;
+    position: relative;
+    padding:1px;
+    text-align: center;
+    background-color: rgb(249, 248, 247);
+    background-blend-mode: darken;
+  
+  }
+  #imagenproducto{
+    width: 20%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1554/1554591.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 0px;
+  
+  }
+
+  
+  .subtext2{
+
+    width: 100%;
+    position: relative;
+    padding:1px;
+    text-align: center;
+    background-color: rgb(249, 248, 247);
+    background-blend-mode: darken;
+  
+  }
+  .subtext2 #imagenproducto p{
+    color: transparent;
+    font-size: 50px;
+  }
+
+  table{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    table-layout: fixed;
+    border-color: aqua;
+
+  }
+
+  .subtext3{
+
+    width: 100%;
+    position: relative;
+    padding:1px;
+    text-align: center;
+    background-color: rgb(249, 248, 247);
+    background-blend-mode: darken;
+  
+  }
+  #imagenproducto3{
+    width: 20%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/646/646094.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 0px;
+  
+  }
+  
+  .subtext3 #imagenproducto3 p{
+    color: transparent;
+    font-size: 50px;
+  }
